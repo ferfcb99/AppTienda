@@ -5,9 +5,11 @@
         <group>
             <file>file:/C:/Users/Fernando/Documents/NetBeansProjects/TiendaUIDesign/src/paneldecontrol/AdministraUsuarios.java</file>
             <file>file:/C:/Users/Fernando/Documents/NetBeansProjects/TiendaUIDesign/src/paneldecontrol/PanelDeControl.java</file>
-            <file>file:/C:/Users/Fernando/Documents/NetBeansProjects/TiendaUIDesign/src/conexion/Database.java</file>
+            <file>file:/C:/Users/Fernando/Documents/NetBeansProjects/TiendaUIDesign/src/login/Login.java</file>
+            <file>file:/C:/Users/Fernando/Documents/NetBeansProjects/TiendaUIDesign/src/pedido/Paso1.java</file>
             <file>file:/C:/Users/Fernando/Documents/NetBeansProjects/TiendaUIDesign/src/paneldecontrol/AdministraArticulos.java</file>
             <file>file:/C:/Users/Fernando/Documents/NetBeansProjects/TiendaUIDesign/src/paneldecontrol/AdministraClientes.java</file>
+            <file>file:/C:/Users/Fernando/Documents/NetBeansProjects/TiendaUIDesign/src/pedido/Paso2.java</file>
         </group>
     </open-files>
 </project-private>

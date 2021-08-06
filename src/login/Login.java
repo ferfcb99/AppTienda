@@ -5,7 +5,7 @@ import javax.swing.ButtonGroup;
 import javax.swing.JOptionPane;
 import java.sql.*;
 import paneldecontrol.PanelDeControl;
-
+import pedido.Paso1;
 public class Login extends javax.swing.JFrame {
 
     private String usuario = null;
@@ -252,8 +252,11 @@ public class Login extends javax.swing.JFrame {
                             this.dispose();
                             break;
                         }else{
-                            // aqui va el codigo que lleva al panel de trabajador
-                            JOptionPane.showMessageDialog(null, "El trabajador existe");
+                            // panel de venta para los trabajadores
+                            Paso1 p1 = new Paso1();
+                            p1.setVisible(true);
+                            this.dispose();
+                            break;
                         }
                     }
                 }
@@ -264,7 +267,7 @@ public class Login extends javax.swing.JFrame {
             mensajesDeCamposVacios();
         }
     }//GEN-LAST:event_btn_entrarActionPerformed
-
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -296,7 +299,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
     }
-
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_entrar;
     private javax.swing.JLabel jLabel1;
