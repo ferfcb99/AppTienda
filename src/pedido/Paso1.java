@@ -269,6 +269,7 @@ public class Paso1 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        
         setDatos(); /// se guarda nombre y apellido
         if (creditoValido(jtf_credito.getText(), 200)) {
             if (camposLlenos()) {
@@ -284,9 +285,9 @@ public class Paso1 extends javax.swing.JFrame {
                     cs.execute();
 
                     Paso2 p2 = new Paso2();
-                    this.dispose();
+                    this.dispose();                   
                     p2.setVisible(true);
-
+                    p2.setMaxCodCliente();
                 } catch (SQLException e) {
                     JOptionPane.showMessageDialog(null, "Error al registrar");
                 }
